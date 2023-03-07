@@ -1,0 +1,15 @@
+{
+  "name": "@agri/shared-types",
+  "version": "1.18.0",
+  "description": "Shared types for agri platform. Idealy this should include types which are common in different packages.",
+  "main": "dist/index.js",
+  "scripts": {
+    "prebuild": "npm run clean",
+    "build": "tsc -b .",
+    "lint": "eslint src --ext js,ts",
+    "fix": "npm run lint -- --fix",
+    "clean": "rimraf dist *.tsbuildinfo"
+  },
+  "author": "Nouman Waheed",
+  "license": "ISC"
+}
