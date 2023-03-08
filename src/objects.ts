@@ -11,6 +11,7 @@ import {
   IRRIGATED,
   JAREB,
   KANAL,
+  KHARIF,
   KILOGRAM,
   LAT,
   LEASED,
@@ -20,6 +21,7 @@ import {
   MURABBA,
   POUND,
   QILA,
+  RABI,
   RAINFED,
   SELFOWNERSHIP,
   SUMMER,
@@ -80,6 +82,14 @@ export const MeasurementUnits: {
   METRE,
   CENTIMETRE,
   INCH,
+});
+
+export const CropsVarietyUpdate: {
+  KHARIF: IMultiLang;
+  RABI: IMultiLang;
+} = Object.freeze({
+  KHARIF,
+  RABI,
 });
 
 export const CropsVariety: {

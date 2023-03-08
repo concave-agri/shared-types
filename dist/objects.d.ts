@@ -28,6 +28,10 @@ export declare const MeasurementUnits: {
     CENTIMETRE: IMultiLang;
     INCH: IMultiLang;
 };
+export declare const CropsVarietyUpdate: {
+    KHARIF: IMultiLang;
+    RABI: IMultiLang;
+};
 export declare const CropsVariety: {
     SUMMER: IMultiLang;
     WINTER: IMultiLang;

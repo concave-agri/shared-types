@@ -203,6 +203,14 @@ export declare enum LEASED {
     en = "Leased",
     ur = "\u0644\u06CC\u0632 \u067E\u0631"
 }
+export declare enum KHARIF {
+    en = "Summer - Kharif Crop",
+    ur = "\u062E\u0631\u06CC\u0641 \u0641\u0635\u0644"
+}
+export declare enum RABI {
+    en = "Winter - Rabi Crop",
+    ur = "\u0631\u0628\u06CC\u0639 \u0641\u0635\u0644"
+}
 export declare enum SUMMER {
     en = "Summer",
     ur = "\u0645\u0648\u0633\u0645 \u06AF\u0631\u0645\u0627"

@@ -226,6 +226,16 @@ export enum LEASED {
   ur = 'لیز پر',
 }
 
+// Crops Variety Update
+export enum KHARIF {
+  en = 'Summer - Kharif Crop',
+  ur = 'خریف فصل',
+}
+export enum RABI {
+  en = 'Winter - Rabi Crop',
+  ur = 'ربیع فصل',
+}
+
 // Crops Variety
 export enum SUMMER {
   en = 'Summer',

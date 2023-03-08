@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Genders = exports.CropsVariety = exports.MeasurementUnits = exports.CalendarLandType = exports.LandUnits = exports.Ownerships = void 0;
+exports.Genders = exports.CropsVariety = exports.CropsVarietyUpdate = exports.MeasurementUnits = exports.CalendarLandType = exports.LandUnits = exports.Ownerships = void 0;
 const enums_1 = require("./enums");
 exports.Ownerships = Object.freeze({
     SELFOWNERSHIP: enums_1.SELFOWNERSHIP,
@@ -30,6 +30,10 @@ exports.MeasurementUnits = Object.freeze({
     METRE: enums_1.METRE,
     CENTIMETRE: enums_1.CENTIMETRE,
     INCH: enums_1.INCH,
+});
+exports.CropsVarietyUpdate = Object.freeze({
+    KHARIF: enums_1.KHARIF,
+    RABI: enums_1.RABI,
 });
 exports.CropsVariety = Object.freeze({
     SUMMER: enums_1.SUMMER,
