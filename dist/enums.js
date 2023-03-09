@@ -1,5 +1,5 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
+exports.__esModule = true;
 exports.FEMALE = exports.MALE = exports.RAINFED = exports.IRRIGATED = exports.WINTER = exports.SUMMER = exports.RABI = exports.KHARIF = exports.LEASED = exports.SELFOWNERSHIP = exports.INCH = exports.CENTIMETRE = exports.METRE = exports.POUND = exports.KILOGRAM = exports.GRAM = exports.JAREB = exports.ATHAAS = exports.QILA = exports.LAT = exports.HECTARE = exports.BEGA = exports.MARLA = exports.BISWA = exports.MURABBA = exports.KANAL = exports.ACRE = exports.PotentialLeadCategory = exports.QueriesSpecifications = exports.UserConcern = exports.MessageType = exports.CallQueryStatus = exports.CallQueryPurpose = exports.ProductsType = exports.RecordState = exports.UserType = exports.CallType = exports.DatasetStatus = exports.FileType = exports.SystemUserType = exports.Role = exports.knowledgeBaseType = exports.CalendarStatusType = exports.CalendarUIOptionType = exports.CalendarNotificationType = exports.NotificationType = exports.HttpVerbs = void 0;
 var HttpVerbs;
 (function (HttpVerbs) {
@@ -7,6 +7,7 @@ var HttpVerbs;
     HttpVerbs["POST"] = "POST";
     HttpVerbs["PUT"] = "PUT";
     HttpVerbs["DELETE"] = "DELETE";
+    HttpVerbs["HEAD"] = "HEAD";
 })(HttpVerbs = exports.HttpVerbs || (exports.HttpVerbs = {}));
 var NotificationType;
 (function (NotificationType) {
@@ -291,4 +292,3 @@ var FEMALE;
     FEMALE["en"] = "Female";
     FEMALE["ur"] = "\u0639\u0648\u0631\u062A";
 })(FEMALE = exports.FEMALE || (exports.FEMALE = {}));
-//# sourceMappingURL=enums.js.map

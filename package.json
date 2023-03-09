@@ -8,7 +8,7 @@
     "build": "tsc -b .",
     "lint": "eslint src --ext js,ts",
     "fix": "npm run lint -- --fix",
-    "clean": "rimraf dist *.tsbuildinfo"
+    "clean": "rimraf dist"
   },
   "author": "Nouman Waheed",
   "license": "ISC"
