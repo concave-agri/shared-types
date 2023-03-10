@@ -7,7 +7,6 @@ var HttpVerbs;
     HttpVerbs["POST"] = "POST";
     HttpVerbs["PUT"] = "PUT";
     HttpVerbs["DELETE"] = "DELETE";
-    HttpVerbs["HEAD"] = "HEAD";
 })(HttpVerbs = exports.HttpVerbs || (exports.HttpVerbs = {}));
 var NotificationType;
 (function (NotificationType) {

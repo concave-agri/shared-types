@@ -2,8 +2,7 @@ export declare enum HttpVerbs {
     GET = "GET",
     POST = "POST",
     PUT = "PUT",
-    DELETE = "DELETE",
-    HEAD = "HEAD"
+    DELETE = "DELETE"
 }
 export declare enum NotificationType {
     CALENDAR = "Crop Calendar",
