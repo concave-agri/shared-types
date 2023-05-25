@@ -145,6 +145,14 @@ export enum PotentialLeadCategory {
   OTHER = QueriesSpecifications.OTHER,
 }
 
+export const USER_PROFILE_GRACE_PERIOD = 15; // in days
+export enum USER_PROFILE_PREMIUM_STATUS {
+  PREMIUM = 'Premium User',
+  GRACE_PERIOD = 'Grace Period User',
+  DOWNGRADED = 'Downgraded User',
+  NOT_PREMIUM = 'Not Premium',
+}
+
 /***** Multilingual Enums *****/
 // Units
 export enum ACRE {

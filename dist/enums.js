@@ -1,6 +1,6 @@
 "use strict";
 exports.__esModule = true;
-exports.FEMALE = exports.MALE = exports.RAINFED = exports.IRRIGATED = exports.WINTER = exports.SUMMER = exports.RABI = exports.KHARIF = exports.LEASED = exports.SELFOWNERSHIP = exports.INCH = exports.CENTIMETRE = exports.METRE = exports.POUND = exports.KILOGRAM = exports.GRAM = exports.JAREB = exports.ATHAAS = exports.QILA = exports.LAT = exports.HECTARE = exports.BEGA = exports.MARLA = exports.BISWA = exports.MURABBA = exports.KANAL = exports.ACRE = exports.PotentialLeadCategory = exports.QueriesSpecifications = exports.UserConcern = exports.MessageType = exports.CallQueryStatus = exports.CallQueryPurpose = exports.ProductsType = exports.RecordState = exports.UserType = exports.CallType = exports.DatasetStatus = exports.FileType = exports.SystemUserType = exports.Role = exports.knowledgeBaseType = exports.CalendarStatusType = exports.CalendarUIOptionType = exports.CalendarNotificationType = exports.NotificationType = exports.HttpVerbs = void 0;
+exports.FEMALE = exports.MALE = exports.RAINFED = exports.IRRIGATED = exports.WINTER = exports.SUMMER = exports.RABI = exports.KHARIF = exports.LEASED = exports.SELFOWNERSHIP = exports.INCH = exports.CENTIMETRE = exports.METRE = exports.POUND = exports.KILOGRAM = exports.GRAM = exports.JAREB = exports.ATHAAS = exports.QILA = exports.LAT = exports.HECTARE = exports.BEGA = exports.MARLA = exports.BISWA = exports.MURABBA = exports.KANAL = exports.ACRE = exports.USER_PROFILE_PREMIUM_STATUS = exports.USER_PROFILE_GRACE_PERIOD = exports.PotentialLeadCategory = exports.QueriesSpecifications = exports.UserConcern = exports.MessageType = exports.CallQueryStatus = exports.CallQueryPurpose = exports.ProductsType = exports.RecordState = exports.UserType = exports.CallType = exports.DatasetStatus = exports.FileType = exports.SystemUserType = exports.Role = exports.knowledgeBaseType = exports.CalendarStatusType = exports.CalendarUIOptionType = exports.CalendarNotificationType = exports.NotificationType = exports.HttpVerbs = void 0;
 var HttpVerbs;
 (function (HttpVerbs) {
     HttpVerbs["GET"] = "GET";
@@ -149,6 +149,14 @@ var PotentialLeadCategory;
     PotentialLeadCategory["LIVESTOCK_SERVICE"] = "Livestock Product/Service - Farming Specific";
     PotentialLeadCategory["OTHER"] = "Other";
 })(PotentialLeadCategory = exports.PotentialLeadCategory || (exports.PotentialLeadCategory = {}));
+exports.USER_PROFILE_GRACE_PERIOD = 15; // in days
+var USER_PROFILE_PREMIUM_STATUS;
+(function (USER_PROFILE_PREMIUM_STATUS) {
+    USER_PROFILE_PREMIUM_STATUS["PREMIUM"] = "Premium User";
+    USER_PROFILE_PREMIUM_STATUS["GRACE_PERIOD"] = "Grace Period User";
+    USER_PROFILE_PREMIUM_STATUS["DOWNGRADED"] = "Downgraded User";
+    USER_PROFILE_PREMIUM_STATUS["NOT_PREMIUM"] = "Not Premium";
+})(USER_PROFILE_PREMIUM_STATUS = exports.USER_PROFILE_PREMIUM_STATUS || (exports.USER_PROFILE_PREMIUM_STATUS = {}));
 /***** Multilingual Enums *****/
 // Units
 var ACRE;

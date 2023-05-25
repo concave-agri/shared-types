@@ -126,6 +126,13 @@ export declare enum PotentialLeadCategory {
     LIVESTOCK_SERVICE = "Livestock Product/Service - Farming Specific",
     OTHER = "Other"
 }
+export declare const USER_PROFILE_GRACE_PERIOD = 15;
+export declare enum USER_PROFILE_PREMIUM_STATUS {
+    PREMIUM = "Premium User",
+    GRACE_PERIOD = "Grace Period User",
+    DOWNGRADED = "Downgraded User",
+    NOT_PREMIUM = "Not Premium"
+}
 /***** Multilingual Enums *****/
 export declare enum ACRE {
     en = "Acre",
