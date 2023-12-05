@@ -130,6 +130,7 @@ var UserConcern;
     UserConcern["NEED_LIVESTOCK_INFO"] = "Want information about Livestock";
     UserConcern["GENERAL_CROP_DICUSSION"] = "General Crop Discussion";
     UserConcern["WHATSAPP_GROUP_FARMER_ADD"] = "Add Farmer in Whatsapp Group";
+    UserConcern["KM_HELPLINE_INTRODUCTION"] = "KM Helpline Introduction";
     UserConcern["OTHER"] = "Other";
 })(UserConcern = exports.UserConcern || (exports.UserConcern = {}));
 var QueriesSpecifications;
