@@ -117,6 +117,12 @@ export declare enum QueriesSpecifications {
     FARMING_SPECIFIC = "Farming Specific",
     OTHER = "Other"
 }
+export declare enum QuerySource {
+    INBOUND_CALL = "InBound Call",
+    OUTBOUND_CALL = "Outbound Call",
+    WHATSAPP = "Whatsapp",
+    FACEBOOK = "Facebook"
+}
 export declare enum PotentialLeadCategory {
     FERTILIZER = "Fertilizer - Crop Specific",
     SEEDS = "Seeds - Crop Specific",
