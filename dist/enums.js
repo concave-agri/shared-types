@@ -1,6 +1,6 @@
 "use strict";
 exports.__esModule = true;
-exports.FEMALE = exports.MALE = exports.RAINFED = exports.IRRIGATED = exports.WINTER = exports.SUMMER = exports.RABI = exports.KHARIF = exports.LEASED = exports.SELFOWNERSHIP = exports.INCH = exports.CENTIMETRE = exports.METRE = exports.POUND = exports.KILOGRAM = exports.GRAM = exports.JAREB = exports.ATHAAS = exports.QILA = exports.LAT = exports.HECTARE = exports.BEGA = exports.MARLA = exports.BISWA = exports.MURABBA = exports.KANAL = exports.ACRE = exports.UserProfileGracePeriod = exports.UserProfilePremiumStatus = exports.PotentialLeadCategory = exports.QueriesSpecifications = exports.UserConcern = exports.MessageType = exports.CallQueryStatus = exports.CallQueryPurpose = exports.ProductsType = exports.RecordState = exports.UserType = exports.CallType = exports.DatasetStatus = exports.FileType = exports.SystemUserType = exports.Role = exports.knowledgeBaseType = exports.CalendarStatusType = exports.CalendarUIOptionType = exports.CalendarNotificationType = exports.NotificationType = exports.HttpVerbs = void 0;
+exports.FEMALE = exports.MALE = exports.RAINFED = exports.IRRIGATED = exports.WINTER = exports.SUMMER = exports.RABI = exports.KHARIF = exports.LEASED = exports.SELFOWNERSHIP = exports.INCH = exports.CENTIMETRE = exports.METRE = exports.POUND = exports.KILOGRAM = exports.GRAM = exports.JAREB = exports.ATHAAS = exports.QILA = exports.LAT = exports.HECTARE = exports.BEGA = exports.MARLA = exports.BISWA = exports.MURABBA = exports.KANAL = exports.ACRE = exports.UserProfileGracePeriod = exports.UserProfilePremiumStatus = exports.PotentialLeadCategory = exports.QuerySource = exports.QueriesSpecifications = exports.UserConcern = exports.MessageType = exports.CallQueryStatus = exports.CallQueryPurpose = exports.ProductsType = exports.RecordState = exports.UserType = exports.CallType = exports.DatasetStatus = exports.FileType = exports.SystemUserType = exports.Role = exports.knowledgeBaseType = exports.CalendarStatusType = exports.CalendarUIOptionType = exports.CalendarNotificationType = exports.NotificationType = exports.HttpVerbs = void 0;
 var HttpVerbs;
 (function (HttpVerbs) {
     HttpVerbs["GET"] = "GET";
@@ -139,6 +139,13 @@ var QueriesSpecifications;
     QueriesSpecifications["FARMING_SPECIFIC"] = "Farming Specific";
     QueriesSpecifications["OTHER"] = "Other";
 })(QueriesSpecifications = exports.QueriesSpecifications || (exports.QueriesSpecifications = {}));
+var QuerySource;
+(function (QuerySource) {
+    QuerySource["INBOUND_CALL"] = "Inbound Call";
+    QuerySource["OUTBOUND_CALL"] = "Outbound Call";
+    QuerySource["WHATSAPP"] = "Whatsapp";
+    QuerySource["FACEBOOK"] = "Facebook";
+})(QuerySource = exports.QuerySource || (exports.QuerySource = {}));
 var PotentialLeadCategory;
 (function (PotentialLeadCategory) {
     PotentialLeadCategory["FERTILIZER"] = "Fertilizer - Crop Specific";

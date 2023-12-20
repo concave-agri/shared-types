@@ -134,6 +134,12 @@ export enum QueriesSpecifications {
   FARMING_SPECIFIC = 'Farming Specific',
   OTHER = 'Other',
 }
+export enum QuerySource {
+  INBOUND_CALL = 'Inbound Call',
+  OUTBOUND_CALL = 'Outbound Call',
+  WHATSAPP = 'Whatsapp',
+  FACEBOOK = 'Facebook',
+}
 
 export enum PotentialLeadCategory {
   FERTILIZER = 'Fertilizer - ' + QueriesSpecifications.CROP_SPECIFIC,
