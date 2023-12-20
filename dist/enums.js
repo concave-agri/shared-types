@@ -139,10 +139,9 @@ var QueriesSpecifications;
     QueriesSpecifications["FARMING_SPECIFIC"] = "Farming Specific";
     QueriesSpecifications["OTHER"] = "Other";
 })(QueriesSpecifications = exports.QueriesSpecifications || (exports.QueriesSpecifications = {}));
-// 'InBound Call', 'Outbound Call', 'Whatsapp', 'Facebook'
 var QuerySource;
 (function (QuerySource) {
-    QuerySource["INBOUND_CALL"] = "InBound Call";
+    QuerySource["INBOUND_CALL"] = "Inbound Call";
     QuerySource["OUTBOUND_CALL"] = "Outbound Call";
     QuerySource["WHATSAPP"] = "Whatsapp";
     QuerySource["FACEBOOK"] = "Facebook";

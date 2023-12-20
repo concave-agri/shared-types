@@ -118,7 +118,7 @@ export declare enum QueriesSpecifications {
     OTHER = "Other"
 }
 export declare enum QuerySource {
-    INBOUND_CALL = "InBound Call",
+    INBOUND_CALL = "Inbound Call",
     OUTBOUND_CALL = "Outbound Call",
     WHATSAPP = "Whatsapp",
     FACEBOOK = "Facebook"
