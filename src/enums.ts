@@ -136,7 +136,7 @@ export enum QueriesSpecifications {
   OTHER = 'Other',
 }
 export enum QuerySource {
-  INBOUND_CALL = 'InBound Call',
+  INBOUND_CALL = 'Inbound Call',
   OUTBOUND_CALL = 'Outbound Call',
   WHATSAPP = 'Whatsapp',
   FACEBOOK = 'Facebook',
