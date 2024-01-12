@@ -47,6 +47,7 @@ var Role;
     Role["CM"] = "Cluster Manager";
     Role["AD"] = "Administrator";
     Role["SA"] = "System Administrator";
+    Role["KDA"] = "Kissan Dukan Agent";
 })(Role = exports.Role || (exports.Role = {}));
 var SystemUserType;
 (function (SystemUserType) {
@@ -139,7 +140,6 @@ var QueriesSpecifications;
     QueriesSpecifications["FARMING_SPECIFIC"] = "Farming Specific";
     QueriesSpecifications["OTHER"] = "Other";
 })(QueriesSpecifications = exports.QueriesSpecifications || (exports.QueriesSpecifications = {}));
-// 'InBound Call', 'Outbound Call', 'Whatsapp', 'Facebook'
 var QuerySource;
 (function (QuerySource) {
     QuerySource["INBOUND_CALL"] = "InBound Call";
