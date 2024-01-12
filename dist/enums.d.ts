@@ -36,7 +36,8 @@ export declare enum Role {
     OM = "Operations Manager",
     CM = "Cluster Manager",
     AD = "Administrator",
-    SA = "System Administrator"
+    SA = "System Administrator",
+    KDA = "Kissan Dukan Agent"
 }
 export declare enum SystemUserType {
     EDITOR_APP = "Editor App User",

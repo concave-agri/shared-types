@@ -47,6 +47,7 @@ var Role;
     Role["CM"] = "Cluster Manager";
     Role["AD"] = "Administrator";
     Role["SA"] = "System Administrator";
+    Role["KDA"] = "Kissan Dukan Agent";
 })(Role = exports.Role || (exports.Role = {}));
 var SystemUserType;
 (function (SystemUserType) {
