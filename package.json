@@ -1,6 +1,6 @@
 {
   "name": "@agri/shared-types",
-  "version": "1.19.0",
+  "version": "2.19.0",
   "description": "Shared types for agri platform. Idealy this should include types which are common in different packages.",
   "main": "dist/index.js",
   "scripts": {

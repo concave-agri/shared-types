@@ -43,6 +43,7 @@ export enum Role {
   CM = 'Cluster Manager',
   AD = 'Administrator',
   SA = 'System Administrator',
+  KDA = 'Kissan Dukan Agent',
 }
 
 export enum SystemUserType {
