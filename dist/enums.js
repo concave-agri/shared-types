@@ -1,6 +1,7 @@
 "use strict";
 exports.__esModule = true;
-exports.FEMALE = exports.MALE = exports.RAINFED = exports.IRRIGATED = exports.WINTER = exports.SUMMER = exports.RABI = exports.KHARIF = exports.LEASED = exports.SELFOWNERSHIP = exports.INCH = exports.CENTIMETRE = exports.METRE = exports.POUND = exports.KILOGRAM = exports.GRAM = exports.JAREB = exports.ATHAAS = exports.QILA = exports.LAT = exports.HECTARE = exports.BEGA = exports.MARLA = exports.BISWA = exports.MURABBA = exports.KANAL = exports.ACRE = exports.UserProfileGracePeriod = exports.UserProfilePremiumStatus = exports.PotentialLeadCategory = exports.QuerySource = exports.QueriesSpecifications = exports.UserConcern = exports.MessageType = exports.CallQueryStatus = exports.CallQueryPurpose = exports.ProductsType = exports.RecordState = exports.UserType = exports.CallType = exports.DatasetStatus = exports.FileType = exports.SystemUserType = exports.Role = exports.knowledgeBaseType = exports.CalendarStatusType = exports.CalendarUIOptionType = exports.CalendarNotificationType = exports.NotificationType = exports.HttpVerbs = void 0;
+exports.WINTER = exports.SUMMER = exports.RABI = exports.KHARIF = exports.LEASED = exports.SELFOWNERSHIP = exports.INCH = exports.CENTIMETRE = exports.METRE = exports.POUND = exports.KILOGRAM = exports.GRAM = exports.JAREB = exports.ATHAAS = exports.QILA = exports.LAT = exports.HECTARE = exports.BEGA = exports.MARLA = exports.BISWA = exports.MURABBA = exports.KANAL = exports.ACRE = exports.UserProfileGracePeriod = exports.UserProfilePremiumStatus = exports.PotentialLeadCategory = exports.QuerySource = exports.QueriesSpecifications = exports.UserConcern = exports.MessageType = exports.CallQueryStatus = exports.CallQueryPurpose = exports.ProductsType = exports.RecordState = exports.UserType = exports.CallType = exports.DatasetStatus = exports.Banks = exports.Wallets = exports.SalaryDuration = exports.MobileNetworks = exports.FileType = exports.SystemUserType = exports.Role = exports.knowledgeBaseType = exports.CalendarStatusType = exports.CalendarUIOptionType = exports.CalendarNotificationType = exports.NotificationType = exports.HttpVerbs = void 0;
+exports.FEMALE = exports.MALE = exports.SoilType = exports.IRRIGATIONMETHOD = exports.RAINFED = exports.IRRIGATED = void 0;
 var HttpVerbs;
 (function (HttpVerbs) {
     HttpVerbs["GET"] = "GET";
@@ -61,6 +62,62 @@ var FileType;
     FileType["IMAGE"] = "Image";
     FileType["PDF"] = "PDF Document";
 })(FileType = exports.FileType || (exports.FileType = {}));
+var MobileNetworks;
+(function (MobileNetworks) {
+    MobileNetworks["JAZZ"] = "Jazz";
+    MobileNetworks["TELENOR"] = "Telenor";
+    MobileNetworks["ZONG"] = "Zong";
+    MobileNetworks["UFONE"] = "Ufone";
+    MobileNetworks["WARID"] = "Warid";
+    MobileNetworks["SCO"] = "Sco";
+})(MobileNetworks = exports.MobileNetworks || (exports.MobileNetworks = {}));
+var SalaryDuration;
+(function (SalaryDuration) {
+    SalaryDuration["MONTHLY"] = "Monthly";
+    SalaryDuration["YEARLY"] = "Yearly";
+})(SalaryDuration = exports.SalaryDuration || (exports.SalaryDuration = {}));
+var Wallets;
+(function (Wallets) {
+    Wallets["JAZZCASH"] = "JazzCash";
+    Wallets["EASYPAISA"] = "EasyPaisa";
+    Wallets["UBLOMNI"] = "UBLOmni";
+    Wallets["SADAPAY"] = "SadaPay";
+    Wallets["NAYAPAY"] = "NayaPay";
+    Wallets["HBLKONNECT"] = "HBL Konnect";
+})(Wallets = exports.Wallets || (exports.Wallets = {}));
+var Banks;
+(function (Banks) {
+    Banks["HABIB_BANK_LIMITED"] = "Habib Bank Limited";
+    Banks["MEEZAN_BANK_LIMITED"] = "Meezan Bank Limited";
+    Banks["BANK_AL_FALAH_LIMITED"] = "Bank Al-Falah Limited";
+    Banks["BANK_AL_HABIB_LIMITED"] = "Bank Al-Habib Limited";
+    Banks["JS_BANK_LIMITED"] = "JS Bank Limited";
+    Banks["SUMMIT_BANK_LIMITED"] = "Summit Bank Limited";
+    Banks["BANKOFPUNJAB"] = "The Bank of Punjab";
+    Banks["NATIONALBANKOFPAKISTAN"] = "National Bank of Pakistan";
+    Banks["BANKOFKHYBER"] = "The Bank of Khyber";
+    Banks["SINDHBANKLIMITED"] = "Sindh Bank Limited";
+    Banks["ZARAI_TARQIATI_BANK_LIMITED"] = "Zarai Tarqiati Bank Limited";
+    Banks["UNITED_BANK_LIMITED"] = "United Bank Limited";
+    Banks["MCB_BANK_LIMITED"] = "MCB Bank Limited";
+    Banks["ALLIED_BANK_LIMITED"] = "Allied Bank limited";
+    Banks["HABIB_METROPOLITAN_BANK_LIMITED"] = "Habib Metropolitan Bank Limited";
+    Banks["ASKARI_BANK_LIMITED"] = "Askari Bank Limited";
+    Banks["SONERI_BANK_LIMITED"] = "Soneri Bank Limited";
+    Banks["SILKBANK_LIMITED"] = "Silk Bank Limited";
+    Banks["AL_BARAKA_BANK_LIMITED"] = "Al-Baraka Bank (Pakistan) Limited";
+    Banks["BANK_ISLAMI_PAKISTAN_LIMITED"] = "Bank Islami Pakistan Limited";
+    Banks["MCB_ISLAMIC_BANK_LIMITED"] = "MCB Islamic Bank Limited";
+    Banks["DUBAI_ISLAMIC_BANK_PAKISTAN"] = "Dubai Islamic Bank Pakistan";
+    Banks["FAYSAL_BANK_LIMITED"] = "Faysal Bank Limited";
+    Banks["SAMBA_BANK_LIMITED"] = "Samba Bank Limited";
+    Banks["SME_BANK_LIMITED"] = "SME Bank Limited";
+    Banks["BANK_OF_CHINA_LIMITED"] = "Bank of China Limited";
+    Banks["STANDARD_CHARTERED_BANK_LIMITED"] = "Standard Chartered Bank (Pakistan) Limited";
+    Banks["INDUSTRIAL_COMMERCIAL_BANK_OF_CHINA"] = "Industrial & Commercial Bank of China";
+    Banks["PUNJAB_PROVINCIAL_COOOPERATIVE_BANK_LIMITED"] = "Punjab Provincial Cooperative Bank Limited";
+    Banks["INDUSTRIAL_DEVELOPMENT_BANK_OF_PAKISTAN_LIMITED"] = "Industrial Development Bank of Pakistan Limited";
+})(Banks = exports.Banks || (exports.Banks = {}));
 var DatasetStatus;
 (function (DatasetStatus) {
     DatasetStatus["DRAFT"] = "Draft";
@@ -297,6 +354,22 @@ var RAINFED;
     RAINFED["en"] = "Rainfed";
     RAINFED["ur"] = "\u0628\u0627\u0631\u0627\u0646\u06CC";
 })(RAINFED = exports.RAINFED || (exports.RAINFED = {}));
+//Soil Type
+var IRRIGATIONMETHOD;
+(function (IRRIGATIONMETHOD) {
+    IRRIGATIONMETHOD["TUBEWELL"] = "Tube Well";
+    IRRIGATIONMETHOD["CANAL"] = "Canal";
+    IRRIGATIONMETHOD["RAINFED"] = "Rain Red";
+})(IRRIGATIONMETHOD = exports.IRRIGATIONMETHOD || (exports.IRRIGATIONMETHOD = {}));
+var SoilType;
+(function (SoilType) {
+    SoilType["ALLUVIAL"] = "Alluvial";
+    SoilType["CALCAREOUS_lOAM"] = "Calcareous-Loam";
+    SoilType["SILTY_CLAY_LOAM"] = "Silty-Clay-Loam";
+    SoilType["SILT_LOAM"] = "Silt-Loam";
+    SoilType["CLAYEY"] = "Clayey";
+    SoilType["SANDY"] = "Sandy";
+})(SoilType = exports.SoilType || (exports.SoilType = {}));
 // Gender
 var MALE;
 (function (MALE) {
