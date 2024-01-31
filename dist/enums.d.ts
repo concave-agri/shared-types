@@ -49,6 +49,58 @@ export declare enum FileType {
     IMAGE = "Image",
     PDF = "PDF Document"
 }
+export declare enum MobileNetworks {
+    JAZZ = "Jazz",
+    TELENOR = "Telenor",
+    ZONG = "Zong",
+    UFONE = "Ufone",
+    WARID = "Warid",
+    SCO = "Sco"
+}
+export declare enum SalaryDuration {
+    MONTHLY = "Monthly",
+    YEARLY = "Yearly"
+}
+export declare enum Wallets {
+    JAZZCASH = "JazzCash",
+    EASYPAISA = "EasyPaisa",
+    UBLOMNI = "UBLOmni",
+    SADAPAY = "SadaPay",
+    NAYAPAY = "NayaPay",
+    HBLKONNECT = "HBL Konnect"
+}
+export declare enum Banks {
+    HABIB_BANK_LIMITED = "Habib Bank Limited",
+    MEEZAN_BANK_LIMITED = "Meezan Bank Limited",
+    BANK_AL_FALAH_LIMITED = "Bank Al-Falah Limited",
+    BANK_AL_HABIB_LIMITED = "Bank Al-Habib Limited",
+    JS_BANK_LIMITED = "JS Bank Limited",
+    SUMMIT_BANK_LIMITED = "Summit Bank Limited",
+    BANKOFPUNJAB = "The Bank of Punjab",
+    NATIONALBANKOFPAKISTAN = "National Bank of Pakistan",
+    BANKOFKHYBER = "The Bank of Khyber",
+    SINDHBANKLIMITED = "Sindh Bank Limited",
+    ZARAI_TARQIATI_BANK_LIMITED = "Zarai Tarqiati Bank Limited",
+    UNITED_BANK_LIMITED = "United Bank Limited",
+    MCB_BANK_LIMITED = "MCB Bank Limited",
+    ALLIED_BANK_LIMITED = "Allied Bank limited",
+    HABIB_METROPOLITAN_BANK_LIMITED = "Habib Metropolitan Bank Limited",
+    ASKARI_BANK_LIMITED = "Askari Bank Limited",
+    SONERI_BANK_LIMITED = "Soneri Bank Limited",
+    SILKBANK_LIMITED = "Silk Bank Limited",
+    AL_BARAKA_BANK_LIMITED = "Al-Baraka Bank (Pakistan) Limited",
+    BANK_ISLAMI_PAKISTAN_LIMITED = "Bank Islami Pakistan Limited",
+    MCB_ISLAMIC_BANK_LIMITED = "MCB Islamic Bank Limited",
+    DUBAI_ISLAMIC_BANK_PAKISTAN = "Dubai Islamic Bank Pakistan",
+    FAYSAL_BANK_LIMITED = "Faysal Bank Limited",
+    SAMBA_BANK_LIMITED = "Samba Bank Limited",
+    SME_BANK_LIMITED = "SME Bank Limited",
+    BANK_OF_CHINA_LIMITED = "Bank of China Limited",
+    STANDARD_CHARTERED_BANK_LIMITED = "Standard Chartered Bank (Pakistan) Limited",
+    INDUSTRIAL_COMMERCIAL_BANK_OF_CHINA = "Industrial & Commercial Bank of China",
+    PUNJAB_PROVINCIAL_COOOPERATIVE_BANK_LIMITED = "Punjab Provincial Cooperative Bank Limited",
+    INDUSTRIAL_DEVELOPMENT_BANK_OF_PAKISTAN_LIMITED = "Industrial Development Bank of Pakistan Limited"
+}
 export declare enum DatasetStatus {
     DRAFT = "Draft",
     AVAILABLE_FOR_ASSIGNING = "Available For Assigning",
@@ -241,6 +293,19 @@ export declare enum IRRIGATED {
 export declare enum RAINFED {
     en = "Rainfed",
     ur = "\u0628\u0627\u0631\u0627\u0646\u06CC"
+}
+export declare enum IRRIGATIONMETHOD {
+    TUBEWELL = "Tube Well",
+    CANAL = "Canal",
+    RAINFED = "Rain Red"
+}
+export declare enum SoilType {
+    ALLUVIAL = "Alluvial",
+    CALCAREOUS_lOAM = "Calcareous-Loam",
+    SILTY_CLAY_LOAM = "Silty-Clay-Loam",
+    SILT_LOAM = "Silt-Loam",
+    CLAYEY = "Clayey",
+    SANDY = "Sandy"
 }
 export declare enum MALE {
     en = "Male",
