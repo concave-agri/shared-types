@@ -73,8 +73,8 @@ var MobileNetworks;
 })(MobileNetworks = exports.MobileNetworks || (exports.MobileNetworks = {}));
 var SalaryDuration;
 (function (SalaryDuration) {
-    SalaryDuration["MONTHLY"] = "Monthly";
-    SalaryDuration["YEARLY"] = "Yearly";
+    SalaryDuration["CROPWISE"] = "Crop Wise";
+    SalaryDuration["ANNUAL"] = "Annual";
 })(SalaryDuration = exports.SalaryDuration || (exports.SalaryDuration = {}));
 var Wallets;
 (function (Wallets) {
