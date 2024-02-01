@@ -58,8 +58,8 @@ export declare enum MobileNetworks {
     SCO = "Sco"
 }
 export declare enum SalaryDuration {
-    MONTHLY = "Monthly",
-    YEARLY = "Yearly"
+    CROPWISE = "Crop Wise",
+    ANNUAL = "Annual"
 }
 export declare enum Wallets {
     JAZZCASH = "JazzCash",
