@@ -67,8 +67,8 @@ export enum MobileNetworks {
 }
 
 export enum SalaryDuration {
-  MONTHLY = 'Monthly',
-  YEARLY = 'Yearly',
+  CROPWISE = 'Crop Wise',
+  ANNUAL = 'Annual',
 }
 
 export enum Wallets {
