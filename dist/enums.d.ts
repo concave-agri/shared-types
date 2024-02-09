@@ -61,6 +61,10 @@ export declare enum SalaryDuration {
     CROPWISE = "Crop Wise",
     ANNUAL = "Annual"
 }
+export declare enum AccountType {
+    BANK = "Bank",
+    WALLET = "Wallet"
+}
 export declare enum Wallets {
     JAZZCASH = "JazzCash",
     EASYPAISA = "EasyPaisa",

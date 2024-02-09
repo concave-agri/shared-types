@@ -71,6 +71,11 @@ export enum SalaryDuration {
   ANNUAL = 'Annual',
 }
 
+export enum AccountType {
+  BANK = "Bank",
+  WALLET = "Wallet",
+}
+
 export enum Wallets {
   JAZZCASH = 'JazzCash',
   EASYPAISA = 'EasyPaisa',
