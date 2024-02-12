@@ -50,6 +50,13 @@ export enum SystemUserType {
   EDITOR_APP = 'Editor App User',
   FC_APP = 'FC App User',
 }
+
+export enum BuyerOfCrops {
+  LOCAL_MIDDLEMAN = 'Local Middleman',
+  MANDI_COMMISSION_AGENT = 'Mandi Commission Agent',
+  CONTRACTUAL = 'Contractual',
+}
+
 export enum FileType {
   EXCEL = 'Excel Document',
   WORD = 'Word Document',
@@ -64,6 +71,7 @@ export enum MobileNetworks {
   UFONE = 'Ufone',
   WARID = 'Warid',
   SCO = 'Sco',
+  OTHER = 'Other',
 }
 
 export enum SalaryDuration {

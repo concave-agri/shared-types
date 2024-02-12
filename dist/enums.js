@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.SUMMER = exports.RABI = exports.KHARIF = exports.LEASED = exports.SELFOWNERSHIP = exports.INCH = exports.CENTIMETRE = exports.METRE = exports.POUND = exports.KILOGRAM = exports.GRAM = exports.JAREB = exports.ATHAAS = exports.QILA = exports.LAT = exports.HECTARE = exports.BEGA = exports.MARLA = exports.BISWA = exports.MURABBA = exports.KANAL = exports.ACRE = exports.UserProfileGracePeriod = exports.UserProfilePremiumStatus = exports.PotentialLeadCategory = exports.QuerySource = exports.QueriesSpecifications = exports.UserConcern = exports.MessageType = exports.CallQueryStatus = exports.CallQueryPurpose = exports.ProductsType = exports.RecordState = exports.UserType = exports.CallType = exports.DatasetStatus = exports.Banks = exports.Wallets = exports.AccountType = exports.SalaryDuration = exports.MobileNetworks = exports.FileType = exports.SystemUserType = exports.Role = exports.knowledgeBaseType = exports.CalendarStatusType = exports.CalendarUIOptionType = exports.CalendarNotificationType = exports.NotificationType = exports.HttpVerbs = void 0;
-exports.FEMALE = exports.MALE = exports.SoilType = exports.IRRIGATIONMETHOD = exports.RAINFED = exports.IRRIGATED = exports.WINTER = void 0;
+exports.RABI = exports.KHARIF = exports.LEASED = exports.SELFOWNERSHIP = exports.INCH = exports.CENTIMETRE = exports.METRE = exports.POUND = exports.KILOGRAM = exports.GRAM = exports.JAREB = exports.ATHAAS = exports.QILA = exports.LAT = exports.HECTARE = exports.BEGA = exports.MARLA = exports.BISWA = exports.MURABBA = exports.KANAL = exports.ACRE = exports.UserProfileGracePeriod = exports.UserProfilePremiumStatus = exports.PotentialLeadCategory = exports.QuerySource = exports.QueriesSpecifications = exports.UserConcern = exports.MessageType = exports.CallQueryStatus = exports.CallQueryPurpose = exports.ProductsType = exports.RecordState = exports.UserType = exports.CallType = exports.DatasetStatus = exports.Banks = exports.Wallets = exports.AccountType = exports.SalaryDuration = exports.MobileNetworks = exports.FileType = exports.BuyerOfCrops = exports.SystemUserType = exports.Role = exports.knowledgeBaseType = exports.CalendarStatusType = exports.CalendarUIOptionType = exports.CalendarNotificationType = exports.NotificationType = exports.HttpVerbs = void 0;
+exports.FEMALE = exports.MALE = exports.SoilType = exports.IRRIGATIONMETHOD = exports.RAINFED = exports.IRRIGATED = exports.WINTER = exports.SUMMER = void 0;
 var HttpVerbs;
 (function (HttpVerbs) {
     HttpVerbs["GET"] = "GET";
@@ -55,6 +55,12 @@ var SystemUserType;
     SystemUserType["EDITOR_APP"] = "Editor App User";
     SystemUserType["FC_APP"] = "FC App User";
 })(SystemUserType || (exports.SystemUserType = SystemUserType = {}));
+var BuyerOfCrops;
+(function (BuyerOfCrops) {
+    BuyerOfCrops["LOCAL_MIDDLEMAN"] = "Local Middleman";
+    BuyerOfCrops["MANDI_COMMISSION_AGENT"] = "Mandi Commission Agent";
+    BuyerOfCrops["CONTRACTUAL"] = "Contractual";
+})(BuyerOfCrops || (exports.BuyerOfCrops = BuyerOfCrops = {}));
 var FileType;
 (function (FileType) {
     FileType["EXCEL"] = "Excel Document";
@@ -70,6 +76,7 @@ var MobileNetworks;
     MobileNetworks["UFONE"] = "Ufone";
     MobileNetworks["WARID"] = "Warid";
     MobileNetworks["SCO"] = "Sco";
+    MobileNetworks["OTHER"] = "Other";
 })(MobileNetworks || (exports.MobileNetworks = MobileNetworks = {}));
 var SalaryDuration;
 (function (SalaryDuration) {

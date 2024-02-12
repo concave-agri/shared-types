@@ -43,6 +43,11 @@ export declare enum SystemUserType {
     EDITOR_APP = "Editor App User",
     FC_APP = "FC App User"
 }
+export declare enum BuyerOfCrops {
+    LOCAL_MIDDLEMAN = "Local Middleman",
+    MANDI_COMMISSION_AGENT = "Mandi Commission Agent",
+    CONTRACTUAL = "Contractual"
+}
 export declare enum FileType {
     EXCEL = "Excel Document",
     WORD = "Word Document",
@@ -55,7 +60,8 @@ export declare enum MobileNetworks {
     ZONG = "Zong",
     UFONE = "Ufone",
     WARID = "Warid",
-    SCO = "Sco"
+    SCO = "Sco",
+    OTHER = "Other"
 }
 export declare enum SalaryDuration {
     CROPWISE = "Crop Wise",
