@@ -55,6 +55,7 @@ export enum BuyerOfCrops {
   LOCAL_MIDDLEMAN = 'Local Middleman',
   MANDI_COMMISSION_AGENT = 'Mandi Commission Agent',
   CONTRACTUAL = 'Contractual',
+  OTHER = 'Other',
 }
 
 export enum FileType {

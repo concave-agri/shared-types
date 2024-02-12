@@ -60,6 +60,7 @@ var BuyerOfCrops;
     BuyerOfCrops["LOCAL_MIDDLEMAN"] = "Local Middleman";
     BuyerOfCrops["MANDI_COMMISSION_AGENT"] = "Mandi Commission Agent";
     BuyerOfCrops["CONTRACTUAL"] = "Contractual";
+    BuyerOfCrops["OTHER"] = "Other";
 })(BuyerOfCrops || (exports.BuyerOfCrops = BuyerOfCrops = {}));
 var FileType;
 (function (FileType) {

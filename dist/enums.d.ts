@@ -46,7 +46,8 @@ export declare enum SystemUserType {
 export declare enum BuyerOfCrops {
     LOCAL_MIDDLEMAN = "Local Middleman",
     MANDI_COMMISSION_AGENT = "Mandi Commission Agent",
-    CONTRACTUAL = "Contractual"
+    CONTRACTUAL = "Contractual",
+    OTHER = "Other"
 }
 export declare enum FileType {
     EXCEL = "Excel Document",
