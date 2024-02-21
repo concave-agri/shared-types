@@ -12,6 +12,16 @@ export declare enum CalendarNotificationType {
     NOTIFICATION = "Notification",
     ACTION_ITEM = "Action Item"
 }
+export declare enum Fertilizers {
+    DAP = "DAP",
+    UREA = "Urea",
+    BIOFERTILIZERS = "Bio Fertilizer",
+    SOP = "SOP",
+    MOP = "MOP",
+    BOP = "BOP",
+    SULFERCOATEDUREA = "Sulfer Coated Urea",
+    CAN = "Can"
+}
 export declare enum CalendarUIOptionType {
     BUTTON = "Button",
     RADIO_BUTTON = "Radio Button",

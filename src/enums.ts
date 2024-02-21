@@ -15,6 +15,17 @@ export enum CalendarNotificationType {
   ACTION_ITEM = 'Action Item',
 }
 
+export enum Fertilizers {
+  DAP = 'DAP',
+  UREA = 'Urea',
+  BIOFERTILIZERS = 'Bio Fertilizer',
+  SOP = 'SOP',
+  MOP = 'MOP',
+  BOP = 'BOP',
+  SULFERCOATEDUREA = 'Sulfer Coated Urea',
+  CAN = 'Can',
+}
+
 export enum CalendarUIOptionType {
   BUTTON = 'Button',
   RADIO_BUTTON = 'Radio Button',
@@ -81,8 +92,8 @@ export enum SalaryDuration {
 }
 
 export enum AccountType {
-  BANK = "Bank",
-  WALLET = "Wallet",
+  BANK = 'Bank',
+  WALLET = 'Wallet',
 }
 
 export enum Wallets {
